@@ -1,0 +1,55 @@
+/*
+Creator: Tim Miner
+Date created: 04/14/19
+Most recent Revision:4/15/19
+*/
+
+
+header, footer {
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+nav a { 
+	background-color: red;
+	color: white;
+	padding: 4px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 20px;
+	width:100px;
+	float:left;
+
+}
+
+nav a:visited {
+	color: black;
+}
+nav a:hover  {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+nav a:active {
+	text-decoration: none;
+}
+nav a img .icon:hover {
+	font-weight: bold;
+	color: white;
+}
+
+
+
+.clear-float {
+	clear: both;
+}
+article {
+	margin-bottom: 12px;
+}
